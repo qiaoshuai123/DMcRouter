@@ -1,0 +1,46 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#app, .wrap {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  list-style: none;
+}
+.wrap{
+  overflow: hidden;
+}
+#app, .wrap a{
+  text-decoration: none;
+}
+.el-aside,.el-container{
+  height: 100%!important;
+}
+
+p {
+  margin: 30px;
+}
+.inp{
+  width: 40% !important;
+}
+.head {
+  margin: 20px;
+}
+.box {
+  height: 100%;
+  width: 100%;
+  background: #f0f2f5;
+  overflow: auto;
+  padding: 10px;
+}
+.q-main {
+  width: 90%;
+  background: white;
+  margin-left: 5%;
+  padding: 15px;
+}
+.el-textarea__inner{
+    height: 70px!important;
+}
